@@ -1,0 +1,86 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# FastAPI / Uvicorn
+*.log
+*.pid
+
+# Virtual environments & tools
+.venv*
+venv*
+env*
+pipenv*
+
+# Environment variables & secrets
+.env
+.env.local
+.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE & editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+*.swn~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Node.js / Frontend
+node_modules/
+frontend/node_modules/
+frontend/.vite/
+frontend/dist/
+frontend/.env.local
+frontend/.env.*.local
+
+# Build outputs
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Testing & coverage
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+*.pytest_cache/
+.pytest_cache/
+coverage/
+
+# Docker
+*.dockerignore
+docker-compose.override.yml
+
+# Migrations (if you want to commit them → remove these lines)
+backend/alembic/versions/*
+!backend/alembic/env.py
+!backend/alembic/script.py.mako
+
+# Misc
+*.bak
+*.backup
+*.tmp
+*.temp
