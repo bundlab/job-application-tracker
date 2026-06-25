@@ -55,3 +55,22 @@ job-application-tracker/
 ├── .env.example
 ├── README.md
 └── .gitignore
+```
+## 📜 License
+MIT License
+
+
+## 👨‍💻 Author
+Abdullahi Bundi
+
+
+## ⭐ Support
+If you like this project:
+* ⭐ Star the repository
+* 🍴 Fork the project
+* 🛠 Contribute improvements
+
+## 📢 Project Status
+🚧 **Active Development**
+
+More features and improvements coming soon.
