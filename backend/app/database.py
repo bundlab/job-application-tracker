@@ -4,6 +4,7 @@ from sqlalchemy.ext.asyncio import AsyncSession, async_sessionmaker, create_asyn
 from sqlmodel import SQLModel
 
 from .core.config import settings
+from .models import job_application  # noqa: F401 — register models with metadata
 
 
 engine = create_async_engine(
